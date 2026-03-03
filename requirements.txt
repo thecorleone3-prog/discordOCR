@@ -1,0 +1,7 @@
+discord.py
+python-dotenv
+httpx
+pytesseract
+Pillow
+openai
+asyncio
