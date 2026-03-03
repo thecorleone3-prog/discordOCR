@@ -18,9 +18,13 @@ from openai import AsyncOpenAI
 load_dotenv()
 
 # Configuración de Tesseract
-TESSERACT_PATH = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
-if os.path.exists(TESSERACT_PATH):
-    pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
+if os.getenv("RAILWAY_ENVIRONMENT"):
+    # En Railway usará el tesseract del sistema
+    pass
+else:
+    TESSERACT_PATH = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+    if os.path.exists(TESSERACT_PATH):
+        pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 # Cliente de OpenAI Global
 client_ai = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
