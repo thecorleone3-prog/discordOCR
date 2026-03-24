@@ -25,7 +25,7 @@ CONFIG_GUILDS = {
         "CANAL_CARGAS_ID": 1446983648091046032,
         "CANAL_PREMIOS_ID": 1284336904095010826,
         "BACKEND_WEBHOOK": "https://gpt-kommo-bot-production.up.railway.app/webhook-ocr/crown",
-        "SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbxtdd0blUx08VANp7Jo1PqSKMeesx6I9302yuuLzZkXNAbwdAmvkT70y13Gjafl65Jf/exec?action=ocr"
+        "SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbwmyTX1W7S4MDP90eRUpMhPkeHpMlOqcgEOphmOYPbMUgFR5UEeZ5rN8HHPMjNC8-gb/exec?action=ocr"
     }
 }
 
