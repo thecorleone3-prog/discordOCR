@@ -25,14 +25,7 @@ CONFIG_GUILDS = {
         "CANAL_CARGAS_ID": 1446983648091046032,
         "CANAL_PREMIOS_ID": 1284336904095010826,
         "BACKEND_WEBHOOK": "https://gpt-kommo-bot-production.up.railway.app/webhook-ocr/crown",
-        "SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbxJNTv77FSsAeCtyEDnwHDBGFa16a0cCJuquusqEZ8JKNL1F0HIU1-47fGqkwnzOvHt/exec?action=ocr"
-    },
-
-    1480156876468387921: {  # <-- ALA
-        "CANAL_CARGAS_ID": 1480156878150565924,
-        "CANAL_PREMIOS_ID": 1480156877902843913,
-        "BACKEND_WEBHOOK": None,
-        "SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbwOJnPpQT41GKMHDNwGz13VdqDCP7GVnN-5yRYHA3sR2X-kWi1A-QLKX2zjL9mBAla1/exec?action=ocr"
+        "SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbyoVdD5x7f41Xo8P9Nq-DIh1-IWOGyT9d91PtANqsWUAb6zjNe2a4jCyljZ6TOuMZ-F/exec?action=ocr"
     }
 }
 
