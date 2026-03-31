@@ -14,13 +14,6 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 # 🏗 CONFIGURACIÓN MULTI-SERVIDOR (LOCAL EN MEMORIA)
 # ==========================================================
 CONFIG_GUILDS = {
-    1475309208860889250: {  # <-- WINSURF
-        "CANAL_CARGAS_ID": 1475309211138134133,
-        "CANAL_PREMIOS_ID": 1475309210832212149,
-        "BACKEND_WEBHOOK": "https://gpt-kommo-bot-production.up.railway.app/webhook-ocr/winsurf",
-        "SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbz1l9OaBjt30ufSNGEUNWTGT_PfubzKdvyH9EBrY22rV9ZIvYTeVscw9xA2sRjSPef3Ug/exec?action=ocr"
-    },
-
     1256002493331017800: {  # <-- CROWN
         "CANAL_CARGAS_ID": 1446983648091046032,
         "CANAL_PREMIOS_ID": 1284336904095010826,
