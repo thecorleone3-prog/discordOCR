@@ -19,6 +19,12 @@ CONFIG_GUILDS = {
         "CANAL_PREMIOS_ID": 1284336904095010826,
         "BACKEND_WEBHOOK": "https://gpt-kommo-bot-production.up.railway.app/webhook-ocr/crown",
         "SHEETS_WEBHOOK_URL": "https://v1-production-9eba.up.railway.app/ocr/crown"
+    },
+     1475309208860889250: {  # <-- WINSURF
+        "CANAL_CARGAS_ID": 1475309211138134133,
+        "CANAL_PREMIOS_ID": 1475309210832212149,
+        "BACKEND_WEBHOOK": "https://gpt-kommo-bot-production.up.railway.app/webhook-ocr/winsurf",
+        "SHEETS_WEBHOOK_URL": "https://v1-production-9eba.up.railway.app/ocr/winsurf"
     }
 }
 
